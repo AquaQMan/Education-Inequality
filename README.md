@@ -13,6 +13,9 @@ The data includes school type, school id, school level, unemployment rates, coll
 # Data Processing
 The data was first cleaned to include relevant features and joined on ID number. Negative percentages were dropped and imputation was performed on compatible columns. Then the data was split into a 70/30 train/test split and was normalized.
 
+# Analysis Methods
+Regression coefficients were used to determine what factors had the highest impact on average ACT scores. Data from the train set was then used and split by state to find local trends in median income. Those coefficients were later plotted by state, showing trends in the relationship of median income and average ACT by state.
+
 # Author
 This repository was created by Qasim Ali, a student at Seattle University studying data science.
 
