@@ -10,6 +10,10 @@ Additional school data: https://drive.google.com/file/d/1HvW2w-o2XZzCm4KTvnb1Bb3
 
 The data includes school type, school id, school level, unemployment rates, college percentages, marriage percentages, median incomes, average ACT scores, free/reduced lunch percentages, and the year and state in which the data was recorded.
 
+# Requirements
+
+The data was processed and analyzed using Python in Google Colab and the Pandas library. Scikit Learn was used for regressions and Vega-Altair, Seaborn, and MatPlotLib were used for visualizations.
+
 # Data Processing
 The data was first cleaned to include relevant features and joined on ID number. Negative percentages were dropped and imputation was performed on compatible columns. Then the data was split into a 70/30 train/test split and was normalized.
 
